@@ -1,0 +1,32 @@
+﻿<div id="travelRequestContainer" ng-controller="travelRequestController">
+    <h1>Travel Request Page</h1><br />
+    Travel RequestId: <div id="travelRequestId"></div><br /><br />
+    <div>
+        <span>estimated amount 1</span>
+        <input type="text" id="txtEstimatedCost1" name="txtEstimatedCost1" ng-model="estimatedCost1" ng-change="updateTotal()" />
+    </div>
+    <br />
+    <div>
+        <span>estimated amount 2</span>
+        <input type="text" id="txtEstimatedCost2" name="txtEstimatedCost2" ng-model="estimatedCost2" ng-change="updateTotal()" />
+    </div>
+    <br />
+    <div style="display:none;" id="estimatedCost3Section" name="estimatedCost3Section">
+        <span>estimated amount total</span>
+        <input type="text" id="txtEstimatedCost3" name="txtEstimatedCost3" ng-model="estimatedCost3" ng-change="updateTotal()" />
+    </div>
+    <br />
+    <div>
+        <span>estimated amount total</span>
+        <input type="text" id="txtEstimatedCostTotal" name="txtEstimatedCostTotal" ng-model="estimatedCostTotal" />
+    </div>
+    <input type="button" ng-click="showEstimatedCost3()" value="Show" />
+    <input type="button" onclick="ok()" value="Ok" />
+
+    <a href="/travelrequest/submit">Save and Continue</a>
+    <button ng-click='go("/travelrequest/submit")'>Save &Aacute; Continue</button>
+    <br />
+    <div id="table">
+        <div ui-grid="travelRequestGridOptions" ui-grid-pagination ui-grid-cell-contents class="existingTravelRequestsGrid"></div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+﻿#travelRequestContainer {
+    background-color: green;
+}
+
+.existingTravelRequestsGrid {
+    /*width: 1630px;
+    max-height: 390px;*/
+    margin-left: 5px;
+    font-size: 10px;
+    word-wrap: break-word;
+    overflow-y: scroll
+}
+
+.existingrequestcolumnheader {
+    font-size: 13px;
+    background-color: #eeeeee;
+    font-weight: 500;
+}

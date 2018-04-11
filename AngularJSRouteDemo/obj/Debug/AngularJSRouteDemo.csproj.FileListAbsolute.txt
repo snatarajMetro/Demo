@@ -1,0 +1,9 @@
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\bin\AngularJSRouteDemo.dll.config
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\bin\AngularJSRouteDemo.dll
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\bin\AngularJSRouteDemo.pdb
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\obj\Debug\AngularJSRouteDemo.csprojResolveAssemblyReference.cache
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\obj\Debug\AngularJSRouteDemo.csproj.CoreCompileInputs.cache
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\obj\Debug\AngularJSRouteDemo.dll
+C:\Demo\AngularJSRouteDemo\AngularJSRouteDemo\obj\Debug\AngularJSRouteDemo.pdb

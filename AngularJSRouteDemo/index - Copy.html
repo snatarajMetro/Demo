@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS Demo</title>
+    <base href="/" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</head>
+<body ng-app="travelAppDemo">
+    <div ng-view>
+
+    </div>
+    <script>
+        //var app = angular.module('travelAppDemo', ['ngRoute']);
+
+        //app.controller("travelRequestController", function ($scope, $routeParams) {
+        //    $scope.travelRequestId = $routeParams.travelRequestId;
+        //    if ($scope.travelRequestId) {
+        //        $("#parameter").text($scope.travelRequestId);
+        //    } else {
+        //        $("#parameter").text("");
+        //    }
+        //});
+
+        //app.controller("travelReimbursementController", function ($scope, $routeParams) {
+        //    $scope.travelReimbursementId = $routeParams.travelReimbursementId;
+        //    if ($scope.travelReimbursementId) {
+        //        $("#parameter").text($scope.travelReimbursementId);
+        //    } else {
+        //        $("#parameter").text("");
+        //    }
+        //});
+
+        //app.config(['$routeProvider', '$locationProvider', function AppConfig($routeProvider, $locationProvider) {
+
+        //    $routeProvider.when('/', {
+        //        templateUrl: 'uitemplates/login.html'
+        //    }).when('/travelrequest/:travelRequestId?', {
+        //        templateUrl: 'uitemplates/travelrequest.html',
+        //        controller: 'travelRequestController',
+        //        //css: 'content/travelrequest.css'
+        //    })
+        //        .when('/travelreimbursement/:travelReimbursementId?', {
+        //            templateUrl: 'uitemplates/travelreimbursement.html',
+        //            controller: 'travelReimbursementController',
+        //            //css: 'content/travelrequest.css'
+        //        })
+        //        .otherwise({
+        //            redirectTo: "/"
+        //        });
+
+        //    // enable html5Mode for pushstate ('#'-less URLs)
+        //    $locationProvider.html5Mode(true);
+        //    $locationProvider.hashPrefix('!');
+        //}]);
+
+    </script>
+    <a href="/">Home</a><br /><br />
+    <a href="/travelrequest">Travel Request</a><br /><br />
+    <a href="/travelrequest/12345">Travel Request 12345</a><br /><br />
+    <a href="/travelreimbursement">Travel Reimbursement</a><br /><br />
+    <a href="/travelreimbursement/49249237">Travel Reimbursement 49249237</a><br /><br />
+</body>
+</html>
